@@ -97,8 +97,10 @@ Jan ~N21M, Feb drop to ~N13M, Mar peak to ~N26.5M (your selected month), Apr ~N1
 **Category:** Cooking Oil 73.62% (N19,568,000) dominates PH March, Seasoning 11.56%, Flour 8.73%, Dairy 6.09% - heavy over-concentration on one category.
 **Brand:** Devon Kings 28.07% (N7M) No.1 brand, Power Oil 26.06% close second, Golden Penny 6.12%, Dano 3.76%.
 
-**6. Note on Regional Contribution Visual:**
-In this screenshot, the Regional Contribution chart still shows all 5 regions (PH N27M 27.24% as top) instead of 100% PH. This visual is not connected to the RegionName slicer in the Data Model - it is showing overall 2025 contribution. To fix: Right-click Regional Contribution PivotChart > Report Connections > tick RegionName slicer. For this view, interpret it as overall context: Port Harcourt remains No.1 region overall.
+### Slicer Design Note
+- Regional Contribution chart is intentionally NOT connected to RegionName slicer - to keep benchmark view of all 5 regions even when filtered to one region.
+- Revenue Trend chart is intentionally NOT connected to MonthName slicer - to keep full Jan-Apr trend line even when filtered to March.
+This avoids slicer vs chart fight and is standard BI practice
 
 
 
@@ -126,8 +128,6 @@ Jan ~N30M peak, Feb drop to ~N20M, Mar drop to ~N16M (your selected month - lowe
 **Category:** Cooking Oil 51.57% (vs 73.62% in PH) - More diversified, Seasoning 28.58% (vs 11.56% in PH) - Kano buys much more seasoning, Flour 11.14%, Dairy 8.72%.
 **Brand:** Power Oil 24.49% No.1 in Kano (vs Devon Kings in PH), Mamador 19.80% second, Golden Penny 6.82%.
 
-**7. Note on Regional Contribution Visual:**
-Same bug as before - this chart still shows all 5 regions (PH N27M 27.24% top) and is not connected to RegionName slicer. It shows overall 2025 view for context. To fix: PivotChart > Report Connections > tick RegionName. In true Kano-only view, this should show Kano 100%.
 
 
 
