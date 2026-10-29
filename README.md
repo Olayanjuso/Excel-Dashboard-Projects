@@ -7,8 +7,8 @@
 [Dataset](https://img.shields.io/badge/Dataset-Fictitious%20%7C%20Simulated-lightgrey)
 [Status](https://img.shields.io/badge/Status-Portfolio%20Ready-brightgreen)
 
-**Live Dashboard - Port Harcourt View (Fictitious Data)**
-![Dashboard Port Harcourt](images/01_dashboard_PH_2025_March.PNG)
+**Live Dashboard - Port Harcourt View **
+![Dashboard Port Harcourt](Images/01_dashboard_PH_2025_March.PNG)
 
 ### Overview
 An end-to-end **fictitious** FMCG Sales Analytics solution built entirely in Excel using Data Model, Power Pivot and DAX. Analyzes **simulated** 10,000+ transactions across 5 regions in Nigeria, 5 channels, 20 sales reps, 100 customers, and 70 SKUs.
@@ -46,7 +46,7 @@ I created this dashboard from a professional Star Schema adding interactive slic
 - **DimRegion:** 5 Regions
 
 ### Data Model - Star Schema
-![Data Model Diagram](images/03_datamodel_diagram.PNG)
+![Data Model Diagram](Images/03_datamodel_diagram.PNG)
 
 - FactSales [CustomerID] -> DimCustomer [CustomerID]
 - FactSales [EmployeeID] -> DimEmployee [EmployeeID]
@@ -62,10 +62,10 @@ All relationships are 1-to-Many, single direction - clean Star Schema.
 ### Dashboard Walkthrough
 
 **View 1: Port Harcourt Performance (Top Region )**
-![Port Harcourt Dashboard](images/01_dashboard_PH_2025_March.PNG)
+![Port Harcourt Dashboard](Images/01_dashboard_PH_2025_March.PNG)
 
 **View 2: Kano Performance (Same Dashboard, Filtered by Slicer)**
-![Kano Dashboard](images/02_dashboard_Kano_2025_March.PNG)
+![Kano Dashboard](Images/02_dashboard_Kano_2025_March.PNG)
 
 Same dashboard, filtered by RegionName Slicer. No need to build new reports.
 
